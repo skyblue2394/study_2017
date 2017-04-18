@@ -1,0 +1,32 @@
+<div class="pop_area">
+	<section class="bg"></section>
+	<div class="modal_table">
+		<div class="modal_cell">
+			<div class="modal_con">
+				<a href="javascript:;" class="close_pop">닫기</a>
+				<hgroup class="tit_area">
+					<h1>title</h1>
+				</hgroup>
+				<div class="con_txt">
+          <button type="button" data-module-popup="popup02"><span>btn_2</span></button>
+					test111111
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- style 분류필요 -->
+<style>
+/* popup */
+.pop_area {position:fixed;left:0;top:0;width:100%;height:100%;z-index:100;}
+.pop_area .bg {position:fixed;left:0;top:0;width:100%;height:100%;background:#000;opacity:.6;z-index:1;}
+.pop_area .close_pop{position:absolute;top:0;right:0;width:25px;height:25px;padding:10px;display:block;text-indent:-999%;background:url(/images/pop/mb_close_btn.png) no-repeat 50% 50%;background-size:25px;z-index:2;}
+.pop_area .tit_area{text-align:center;margin:0 0 20px;padding:0;}
+.pop_area .tit_area h1 {color:#333;font-size:21px;line-height:26px;}
+.pop_area .pop_con {position:absolute;padding:35px 20px;text-align:left;background:#fff;z-index:10;}
+.pop_area .con_txt{height:auto;min-height:1px;max-height:999999px;display:block;font-size:13px;color:#666;line-height:18px;}
+
+.modal_table{display:table;position:relative;width:100%;height:100%;background:transparent;z-index:9;}
+.modal_table .modal_cell{display:table-cell;vertical-align:middle;}
+.modal_table .modal_con{position:relative;width: 370px; margin: 0 auto;background:#fff;padding:35px 20px;text-align:left;display:block;}
+</style>

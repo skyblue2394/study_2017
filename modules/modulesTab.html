@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="ko">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+	<style>
+		.tabModules{max-width:700px;margin:0 auto;}
+    .tabBtn li button{width:120px;height:30px;background:none;border:0px;}
+    .tabBtn li.on button{background-color:blue;color:#fff;font-weight:bold;}
+    .tabCon {display:none;}
+    .tabCon.on{display:block;}
+	</style>
+ </head>
+ <body data-modules-type="modulesTab">
+	<div style="border:1px solid #dedede; max-width:700px; margin-bottom:30px; padding:10px;">
+	  <h3 style="padding-left:20px;">예제</h3>
+	  <ol>
+		<li>2017년 3월 3주차 예제</li>
+		<li>TAB 메뉴</li>
+	  </ol>
+	</div>
+	<div class="tabModules">
+  	<ul class="tabBtn">
+			<li class="on"><button type="button"><span>btn_1</span></button></li>
+			<li><button type="button"><span>btn_2</span></button></li>
+			<li><button type="button"><span>btn_3</span></button></li>
+			<li><button type="button"><span>btn_4</span></button></li>
+    </ul>
+    <div class="tabCon on">
+      content1-1
+    </div>
+    <div class="tabCon">
+      content1-2
+    </div>
+    <div class="tabCon">
+      content1-3
+    </div>
+    <div class="tabCon">
+      content1-4
+    </div>
+	</div>
+
+	<div class="tabModules">
+  	<ul class="tabBtn">
+			<li class="on"><button type="button"><span>btn_1</span></button></li>
+			<li><button type="button"><span>btn_2</span></button></li>
+			<li><button type="button"><span>btn_3</span></button></li>
+			<li><button type="button"><span>btn_4</span></button></li>
+    </ul>
+    <div class="tabCon on">
+      content2-1
+    </div>
+    <div class="tabCon">
+      content2-2
+    </div>
+    <div class="tabCon">
+      content2-3
+    </div>
+    <div class="tabCon">
+      content2-4
+    </div>
+	</div>
+  <!-- script -->
+  <script type="text/javascript" src="../js/jquery-1.11.3.min.js"></script>
+  <script type="text/javascript" src="./loadScript.js"></script>
+  <!-- //script -->
+ </body>
+</html>
